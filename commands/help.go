@@ -27,7 +27,7 @@ func Help(b ext.Bot, u *gotgbot.Update) error {
 
 	helpButton[0][1] = ext.InlineKeyboardButton{
 		Text: "My Creator 🎅",
-		Url:  "//t.me/fybadmin",
+		Url:  "https://t.me/fybadmin",
 	}
 
 	helpButton[1][0] = ext.InlineKeyboardButton{
