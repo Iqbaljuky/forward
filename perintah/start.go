@@ -23,18 +23,18 @@ func Start(b ext.Bot, u *gotgbot.Update) error {
 	startButton := [][]ext.InlineKeyboardButton{make([]ext.InlineKeyboardButton, 2), make([]ext.InlineKeyboardButton, 1)}
 
 	startButton[0][0] = ext.InlineKeyboardButton{
-		Text: "Source code 🗃️",
-		Url:  "https://github.com/lullaby23/tagremove/",
+		Text: "Join vip 🗃️",
+		Url:  "https://t.me/VIP15211",
 	}
 
 	startButton[0][1] = ext.InlineKeyboardButton{
 		Text: "My Creator ⚙️",
-		Url:  "https://t.me/fybadmin",
+		Url:  "https://t.me/Bukanbocahepep1",
 	}
 
 	startButton[1][0] = ext.InlineKeyboardButton{
 		Text: "Join Our Channel 🎉",
-		Url:  "https://t.me/foryoubbs",
+		Url:  "https://t.me/vidiobasah",
 	}
 
 	markup := ext.InlineKeyboardMarkup{InlineKeyboard: &startButton}
